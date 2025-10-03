@@ -1,14 +1,10 @@
 <!doctype html>
 <html>
   <head>
-    <script>
-      window.onload = () => {
-        window.open("bmeet.pdf", "_blank"); // يفتح PDF في تبويب جديد
-      };
-    </script>
+    <meta charset="utf-8">
+    <title>عرض PDF</title>
   </head>
-  <body>
-    <h2>📄 يتم فتح الملف...</h2>
-    <p>لو الملف ما فتحش، <a href="bmeet.pdf" target="_blank">اضغط هنا</a></p>
+  <body style="margin:0; padding:0; height:100vh;">
+    <iframe src="bmeet.pdf" width="100%" height="100%" style="border:none;"></iframe>
   </body>
 </html>
